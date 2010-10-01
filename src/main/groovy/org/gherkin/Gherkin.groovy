@@ -1,5 +1,3 @@
 package org.gherkin
 
-class Gherkin {
-
-}
+println "Hello World!!"
