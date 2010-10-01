@@ -15,12 +15,3 @@ jar {
 	jar.manifest.mainAttributes('Class-Path': configurations.runtime.collect { it.name }.join(' '))
 	jar.manifest.mainAttributes('Main-Class' : 'org.gherkin.Gherkin')
 }
-
-
-
-//jar {
-//    from configurations.runtime.collect { it.isDirectory() ? it : zipTree(it) }
-//}
-
-//manifest.mainAttributes("Main-Class" : "org.gherkin.Gherkin")
-
