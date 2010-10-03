@@ -7,7 +7,7 @@ import static org.junit.Assert.*
 class GherkinTest {
 
     @Test public void usingCorrectVersionOfGroovy() {
-        assertEquals('1.7.0', InvokerHelper.version)
+        assertEquals('1.7.2', InvokerHelper.version)
     }
     
 }
